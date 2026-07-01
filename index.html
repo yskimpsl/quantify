@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Privacy Policy — BYOP by Quantify</title>
+<meta name="description" content="Privacy Policy for BYOP. BYOP does not collect any personal data." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;450;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --ink:#171E2B; --body:#3A4353; --muted:#6B7488;
+    --bg:#FFFFFF; --panel:#F6F7F9; --line:#E7EAF0; --line-strong:#D7DCE6;
+    --link:#2E6BF0;
+    --s1:#E9188E; --s2:#8A2BE8; --s3:#2E7DF6; --s4:#22B24C;
+    --s5:#F5C518; --s6:#FF7A18; --s7:#F0342E;
+    --spectrum:linear-gradient(90deg,var(--s1),var(--s2),var(--s3),var(--s4),var(--s5),var(--s6),var(--s7));
+    --maxw:760px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--bg);color:var(--body);
+    font-family:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    font-size:16.5px;line-height:1.72;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;}
+  .spectrum-top{height:4px;width:100%;background:var(--spectrum);}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px;}
+
+  header.site{padding:44px 0 0;}
+  .logo{display:block;width:232px;max-width:60vw;height:auto;}
+  .hero{padding:38px 0 30px;position:relative;}
+  .product{display:flex;align-items:center;gap:16px;margin:0 0 26px;}
+  .product img{width:60px;height:60px;border-radius:14px;flex:none;
+    box-shadow:0 6px 20px rgba(46,109,240,.22),0 1px 0 rgba(0,0,0,.04);}
+  .product .pname{font-family:"Space Grotesk",sans-serif;font-weight:600;color:var(--ink);
+    font-size:20px;line-height:1.1;}
+  .product .pkind{font-family:"JetBrains Mono",monospace;font-size:11.5px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--muted);margin-top:3px;}
+  .eyebrow{font-family:"JetBrains Mono",monospace;font-size:12px;letter-spacing:.22em;
+    text-transform:uppercase;color:var(--muted);font-weight:500;margin:0 0 16px;
+    display:flex;align-items:center;gap:12px;}
+  .eyebrow::before{content:"";width:26px;height:26px;flex:none;
+    background-image:
+      linear-gradient(var(--s3),var(--s3)),linear-gradient(var(--s4),var(--s4)),
+      linear-gradient(var(--s6),var(--s6)),linear-gradient(var(--s1),var(--s1));
+    background-repeat:no-repeat;background-size:11px 11px;
+    background-position:0 0,15px 0,0 15px,15px 15px;border-radius:2px;}
+  h1{font-family:"Space Grotesk",sans-serif;color:var(--ink);font-weight:600;
+    font-size:clamp(38px,7vw,60px);line-height:1.02;letter-spacing:-.02em;margin:0 0 22px;}
+  .meta{font-family:"JetBrains Mono",monospace;font-size:12.5px;color:var(--muted);
+    display:flex;flex-wrap:wrap;gap:8px 22px;padding-top:22px;border-top:1px solid var(--line);}
+  .meta b{color:var(--ink);font-weight:500;}
+  .lede{font-size:18px;color:var(--body);margin:26px 0 0;}
+
+  .grid-mark{position:absolute;top:40px;right:2px;width:96px;height:96px;pointer-events:none;}
+  .grid-mark i{position:absolute;width:13px;height:13px;border-radius:2px;opacity:.9;
+    animation:pop .5s cubic-bezier(.2,.7,.3,1) backwards;}
+  @keyframes pop{from{opacity:0;transform:scale(.4);}}
+
+  .banner{margin:30px 0 0;padding:22px 24px;border:1px solid var(--line);border-radius:14px;
+    background:var(--panel);position:relative;overflow:hidden;}
+  .banner::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--spectrum);}
+  .banner h2{font-family:"Space Grotesk",sans-serif;color:var(--ink);font-weight:600;
+    font-size:19px;margin:0 0 6px;}
+  .banner p{margin:0;color:var(--body);font-size:15.5px;}
+
+  nav.toc{background:var(--panel);border:1px solid var(--line);border-radius:14px;
+    padding:22px 24px;margin:22px 0 8px;}
+  nav.toc h2{font-family:"JetBrains Mono",monospace;font-size:11.5px;letter-spacing:.2em;
+    text-transform:uppercase;color:var(--muted);font-weight:600;margin:0 0 14px;}
+  nav.toc ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:2px 26px;}
+  nav.toc a{display:flex;gap:12px;align-items:baseline;text-decoration:none;color:var(--ink);
+    padding:6px 0;font-size:15px;border-radius:6px;}
+  nav.toc a:hover{color:var(--link);}
+  nav.toc a span{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--muted);
+    min-width:20px;font-weight:500;}
+
+  main{padding:16px 0 0;}
+  section{padding:34px 0;border-top:1px solid var(--line);}
+  section:first-of-type{border-top:none;}
+  .sec-idx{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--s3);
+    font-weight:600;letter-spacing:.08em;display:block;margin-bottom:8px;}
+  h2.sec{font-family:"Space Grotesk",sans-serif;color:var(--ink);font-weight:600;
+    font-size:24px;letter-spacing:-.01em;margin:0 0 12px;line-height:1.2;scroll-margin-top:20px;}
+  p{margin:0 0 14px;}
+  a{color:var(--link);text-decoration:underline;text-underline-offset:2px;
+    text-decoration-thickness:1px;text-decoration-color:var(--line-strong);}
+  a:hover{text-decoration-color:currentColor;}
+  ul{margin:6px 0 16px;padding-left:0;list-style:none;}
+  ul li{position:relative;padding-left:26px;margin:9px 0;}
+  ul li::before{content:"";position:absolute;left:4px;top:.62em;width:8px;height:8px;border-radius:2px;background:var(--s3);}
+  ul li:nth-child(6n+2)::before{background:var(--s1);}
+  ul li:nth-child(6n+3)::before{background:var(--s4);}
+  ul li:nth-child(6n+4)::before{background:var(--s6);}
+  ul li:nth-child(6n+5)::before{background:var(--s2);}
+  ul li:nth-child(6n)::before{background:var(--s5);}
+  strong{color:var(--ink);font-weight:600;}
+
+  .contact{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:24px 26px;margin-top:4px;}
+  .contact .row{display:flex;gap:14px;padding:9px 0;border-top:1px solid var(--line);font-size:15px;}
+  .contact .row:first-child{border-top:none;}
+  .contact .k{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--muted);
+    min-width:90px;letter-spacing:.04em;text-transform:uppercase;padding-top:3px;}
+  .contact .v{color:var(--ink);}
+
+  footer{margin-top:20px;border-top:1px solid var(--line);}
+  footer .spectrum-line{height:3px;background:var(--spectrum);opacity:.9;}
+  footer .inner{padding:26px 0 60px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px;}
+  footer img{width:132px;height:auto;opacity:.9;}
+  footer .fine{font-family:"JetBrains Mono",monospace;font-size:11.5px;color:var(--muted);}
+
+  @media (max-width:600px){
+    body{font-size:16px;}
+    nav.toc ol{grid-template-columns:1fr;}
+    .grid-mark{display:none;}
+    .meta{font-size:11.5px;}
+  }
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important;}}
+  :focus-visible{outline:2.5px solid var(--s3);outline-offset:3px;border-radius:3px;}
+  @media print{.spectrum-top,footer .spectrum-line{-webkit-print-color-adjust:exact;print-color-adjust:exact;}}
+</style>
+</head>
+<body>
+  <div class="spectrum-top"></div>
+
+  <header class="site">
+    <div class="wrap">
+      <img class="logo" src="quantify-logo.png" alt="Quantify" />
+
+      <div class="hero">
+        <div class="grid-mark" aria-hidden="true">
+          <i style="left:0;top:0;background:var(--s7);animation-delay:.02s"></i>
+          <i style="left:17px;top:0;background:var(--s6);animation-delay:.06s"></i>
+          <i style="left:34px;top:0;background:var(--s5);opacity:.55;animation-delay:.10s"></i>
+          <i style="left:0;top:17px;background:var(--s6);animation-delay:.05s"></i>
+          <i style="left:17px;top:17px;background:var(--s5);animation-delay:.09s"></i>
+          <i style="left:34px;top:17px;background:var(--s4);opacity:.5;animation-delay:.13s"></i>
+          <i style="left:51px;top:17px;background:var(--s4);opacity:.28;animation-delay:.17s"></i>
+          <i style="left:17px;top:34px;background:var(--s4);animation-delay:.12s"></i>
+          <i style="left:34px;top:34px;background:var(--s3);opacity:.55;animation-delay:.16s"></i>
+          <i style="left:51px;top:34px;background:var(--s3);opacity:.3;animation-delay:.20s"></i>
+          <i style="left:34px;top:51px;background:var(--s2);opacity:.4;animation-delay:.19s"></i>
+          <i style="left:51px;top:51px;background:var(--s1);opacity:.22;animation-delay:.23s"></i>
+        </div>
+
+        <div class="product">
+          <img src="byop-icon.png" alt="BYOP app icon" />
+          <div>
+            <div class="pname">BYOP</div>
+            <div class="pkind">Windows Application</div>
+          </div>
+        </div>
+
+        <p class="eyebrow">Quantify · Legal</p>
+        <h1>Privacy&nbsp;Policy</h1>
+        <div class="meta">
+          <span>Last updated <b>1 July 2026</b></span>
+          <span>Applies to <b>BYOP</b></span>
+        </div>
+        <p class="lede">BYOP is built to work entirely on your device. We do not collect,
+          store, or transmit any personal information about you.</p>
+      </div>
+
+      <div class="banner">
+        <h2>The short version</h2>
+        <p>BYOP collects no personal data. There are no accounts, no analytics, no tracking,
+          no advertising, and no third-party services. Nothing you do in BYOP is sent to us.</p>
+      </div>
+    </div>
+  </header>
+
+  <div class="wrap">
+    <nav class="toc" aria-label="Contents">
+      <h2>On this page</h2>
+      <ol>
+        <li><a href="#who"><span>01</span>Who we are</a></li>
+        <li><a href="#commitment"><span>02</span>Our commitment</a></li>
+        <li><a href="#collect"><span>03</span>Information we collect</a></li>
+        <li><a href="#device"><span>04</span>Data on your device</a></li>
+        <li><a href="#third"><span>05</span>Third parties &amp; ads</a></li>
+        <li><a href="#children"><span>06</span>Children's privacy</a></li>
+        <li><a href="#security"><span>07</span>Security</a></li>
+        <li><a href="#rights"><span>08</span>Your rights</a></li>
+        <li><a href="#changes"><span>09</span>Changes</a></li>
+        <li><a href="#contact"><span>10</span>Contact us</a></li>
+      </ol>
+    </nav>
+
+    <main>
+      <section id="who">
+        <span class="sec-idx">01</span>
+        <h2 class="sec">Who we are</h2>
+        <p>BYOP is developed and operated by <strong>Quantify Inc.</strong> ("we", "us", or
+          "our"), registered at 123 Cheomdangwagi-ro, Buk-gu, Gwangju 61005, South Korea. This
+          policy explains how BYOP handles information — and, more simply, why there is very
+          little to explain.</p>
+        <p>Questions? Reach us any time at
+          <a href="mailto:yunsukim@quantify.co.kr">yunsukim@quantify.co.kr</a>.</p>
+      </section>
+
+      <section id="commitment">
+        <span class="sec-idx">02</span>
+        <h2 class="sec">Our commitment to privacy</h2>
+        <p>We designed BYOP to do its job without knowing anything about you. The app runs
+          locally on your device and does not require an account, a sign-in, or an internet
+          connection to protect your privacy. We have no servers that receive your information,
+          because BYOP does not send us any.</p>
+      </section>
+
+      <section id="collect">
+        <span class="sec-idx">03</span>
+        <h2 class="sec">Information we collect</h2>
+        <p><strong>None.</strong> BYOP does not collect, store, or transmit any personal
+          information. Specifically, we do <em>not</em> collect:</p>
+        <ul>
+          <li>Names, email addresses, or account credentials.</li>
+          <li>Usage analytics, behavioral data, or telemetry.</li>
+          <li>Crash or diagnostic reports sent to us.</li>
+          <li>Location, contacts, photos, or device identifiers.</li>
+          <li>Any other data that could identify you.</li>
+        </ul>
+        <p>Because we collect nothing, there is no personal information for us to use, share,
+          sell, or lose.</p>
+      </section>
+
+      <section id="device">
+        <span class="sec-idx">04</span>
+        <h2 class="sec">Data on your device</h2>
+        <p>Any content, files, or settings you create in BYOP stay on your own device. We have
+          no access to them, and they are never uploaded to us or to anyone else. You remain in
+          full control: removing that data — for example by deleting it in the app or
+          uninstalling BYOP — removes it from your device.</p>
+      </section>
+
+      <section id="third">
+        <span class="sec-idx">05</span>
+        <h2 class="sec">Third-party services and advertising</h2>
+        <p>BYOP does not use any third-party analytics, advertising, or tracking services. The
+          app displays no advertisements and includes no third-party SDKs that would collect
+          your information. We do not share data with third parties, because we hold none.</p>
+      </section>
+
+      <section id="children">
+        <span class="sec-idx">06</span>
+        <h2 class="sec">Children's privacy</h2>
+        <p>BYOP does not collect personal information from anyone, including children. The app
+          contains no data collection, advertising, or tracking that would raise privacy
+          concerns for younger users.</p>
+      </section>
+
+      <section id="security">
+        <span class="sec-idx">07</span>
+        <h2 class="sec">Security</h2>
+        <p>The most effective protection for your data is that we never receive it. Since BYOP
+          keeps everything on your device and transmits nothing to us, there is no personal
+          information in our custody that could be exposed in a breach. Protecting the data on
+          your device is handled by your device's own security and the operating system.</p>
+      </section>
+
+      <section id="rights">
+        <span class="sec-idx">08</span>
+        <h2 class="sec">Your rights</h2>
+        <p>Privacy laws such as the GDPR and Korea's PIPA give you rights to access, correct, or
+          delete your personal information. Because we do not hold any personal information about
+          you, there is nothing for us to retrieve or erase on our side. If you have any
+          questions about your privacy, contact us at
+          <a href="mailto:yunsukim@quantify.co.kr">yunsukim@quantify.co.kr</a> and we will be
+          glad to help.</p>
+      </section>
+
+      <section id="changes">
+        <span class="sec-idx">09</span>
+        <h2 class="sec">Changes to this policy</h2>
+        <p>If a future version of BYOP changes how it handles information, we will update this
+          policy and revise the "Last updated" date at the top of this page before that version
+          is released. Your continued use of the app after an update means you accept the
+          revised policy.</p>
+      </section>
+
+      <section id="contact">
+        <span class="sec-idx">10</span>
+        <h2 class="sec">Contact us</h2>
+        <p>For any questions about this policy or your privacy, reach us at:</p>
+        <div class="contact">
+          <div class="row"><div class="k">Company</div><div class="v">Quantify Inc.</div></div>
+          <div class="row"><div class="k">Email</div><div class="v"><a href="mailto:yunsukim@quantify.co.kr">yunsukim@quantify.co.kr</a></div></div>
+          <div class="row"><div class="k">Address</div><div class="v">123 Cheomdangwagi-ro, Buk-gu, Gwangju 61005, South Korea</div></div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <div class="spectrum-line"></div>
+    <div class="wrap inner">
+      <img src="quantify-logo.png" alt="Quantify" />
+      <span class="fine">© 2026 Quantify Inc. All rights reserved.</span>
+    </div>
+  </footer>
+</body>
+</html>
